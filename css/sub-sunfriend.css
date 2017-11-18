@@ -18,6 +18,10 @@
 .img-responsive img {
     width: 100%;
 }
+.img-center{
+margin:0px auto;
+}
+
 
 
 /*最新消息位置*/
@@ -798,6 +802,17 @@ h3 {
     letter-spacing: 1.2pt;
     line-height: 1.5;
 }
+h3::after{
+content: '';
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: -4px;
+    left: 0px;
+    background: url(../assets/images/green.png) 0 0 no-repeat;
+    z-index: -1;
+}
 
 .about-text>h4 {
     color: #333333;
@@ -910,10 +925,12 @@ tr:nth-child(odd) {
 
 .table2 th {
     background-color: #AACD03;
-    color: #555555;
     white-space: nowrap;
     padding: 20px 8px 20px 20px!important;
     line-height: 1.7;
+    font-weight: 500;
+    color: #555555;
+    font-size: 15px;
 }
 
 
@@ -944,8 +961,9 @@ tr:nth-child(odd) {
 
 .middle {
     vertical-align: middle !important;
-    font-weight: bold;
+    font-weight: 500;
     color: #555555;
+    font-size: 15px;
 }
 
 
@@ -993,24 +1011,87 @@ h4 i {
 .panel-heading {
     background-color: #009943 !important;
     color: white !important;
+    font-size: 16px;
 }
 
 .text-collapse p {
     position: relative;
     /* 高度为需要显示的行数*行高，比如这里我们显示两行，则为3 */
     height: 8.5em;
-    overflow: hidden;
-}
-
-.text-collapse p:after {
-    content: "...";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 0 5px;
-    background-color: #fff;
+    overflow-y: auto;
 }
 
 .footer-ul li p {
     text-align: left;
     }
+
+
+/*投資人聯絡窗口*/
+.contentbox{
+display: block;
+    background: white;
+
+}
+.contentbox:hover h4,
+.contentbox h4:hover {
+color: #009943;
+}
+
+.contentbox p>h4:hover {
+color: #009943;
+}
+
+
+/*供應商管理*/
+
+.stbox h5{
+    text-align: center;
+}
+.stbox:hover h5{
+    text-align: center;
+    color: #009943;
+}
+
+.Sticon1{
+    background: url("../assets/images/stackholder/stake-01.svg")center no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+
+.Sticon1:hover{
+background: url("../assets/images/stackholder/stake-011.svg")center no-repeat;
+}
+
+.Sticon2{
+    background: url("../assets/images/stackholder/stake-02.svg")center no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+
+.Sticon2:hover{
+background: url("../assets/images/stackholder/stake-022.svg")center no-repeat;
+}
+
+.Sticon3{
+    background: url("../assets/images/stackholder/stake-03.svg")center no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+
+.Sticon3:hover{
+background: url("../assets/images/stackholder/stake-033.svg")center no-repeat;
+}
+
+.Sticon4{
+    background: url("../assets/images/stackholder/stake-04.svg")center no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+
+.Sticon4:hover{
+background: url("../assets/images/stackholder/stake-044.svg")center no-repeat;
+}

@@ -16,6 +16,7 @@
     <link href="../css/ihover2.css" rel="stylesheet">
     <link href="../css/sunfriend2.css" rel="stylesheet">
     <link href="../css/sub-sunfriend.css" rel="stylesheet">
+    <link href="../css/bootstrap-dropdownhover.min.css" rel="stylesheet">
     <!--思源黑體 -->
     <style type="text/css">
     @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
@@ -39,11 +40,10 @@
 
 <body class="body">
     <!--HEADER START-->
-      <header>
+    <header>
         <div class="navbar-fixed-top wow fadeInDown">
             <nav class="navbar navbar-default ">
                 <div class="container">
-
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
@@ -54,9 +54,9 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                     <div class="lan"><i class=" wow fa fa-globe" aria-hidden="true"></i> ENGLISH</div>
-                        <ul class="nav navbar-nav navbar-right " data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                        <ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="fadeInUp" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
                             <li class=" dropdown ">
-                                <a href="#" class="dropdown-toggle " data-toggle="dropdown">關於日友 <i class="fa fa-angle-down"></i></a>
+                                <a href="../AboutSF/index.html" class="dropdown-toggle " data-toggle="dropdown">關於日友 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../AboutSF/index.html">基本資料</a></li>
                                     <li><a href="../AboutSF/index2.html">營業項目與範圍</a></li>
@@ -68,7 +68,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">最新消息 <i class="fa fa-angle-down"></i></a>
+                                <a href="../News/index.html" class="dropdown-toggle" data-toggle="dropdown">最新消息 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../News/index.html">最新消息</a></li>
                                     <li><a href="../News/index2.html">重大訊息</a></li>
@@ -76,7 +76,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">公司治理 <i class="fa fa-angle-down"></i></a>
+                                <a href="../CorporateGovernance/index.html" class="dropdown-toggle" data-toggle="dropdown">公司治理 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../CorporateGovernance/index.html">公司治理</a></li>
                                     <li><a href="../CorporateGovernance/index2.html">運作規章</a></li>
@@ -86,7 +86,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">投資人專區 <i class="fa fa-angle-down"></i></a>
+                                <a href="../Investor/index.html" class="dropdown-toggle" data-toggle="dropdown">投資人專區 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../Investor/index.html">股東會相關資訊</a></li>
                                     <li><a href="../Investor/index2.html">盈收公告</a></li>
@@ -97,7 +97,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">企業社會責任 <i class="fa fa-angle-down"></i></a>
+                                <a href="../CorporateSocialResponsibility/index.html" class="dropdown-toggle" data-toggle="dropdown">企業社會責任 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../CorporateSocialResponsibility/index.html">導言</a></li>
                                     <li><a href="../CorporateSocialResponsibility/index2.html">企業社會責任政策</a></li>
@@ -107,16 +107,10 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">利害關係人  <i class="fa fa-angle-down"></i></a>
+                                <a href="../Stakeholder/index.html" class="dropdown-toggle" data-toggle="dropdown">利害關係人  <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="../Stakeholder/index.html">關係人鑑別議題與措施</a></li>
-                                    <li class="dropdown-submenu pull-left">
-                                        <a href="../Stakeholder/index2.html">員工福利措施</a>
-                                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
-                                            <li><a href="../Stakeholder/index2.html">退休制度及實施狀況</a></li>
-                                            <li><a href="../Stakeholder/index2.html">員工工作環境與人身<br />安全保護措施</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="../Stakeholder/index2.html">員工福利措施</a></li>
                                     <li><a href="../Stakeholder/index3.html">供應商管理政策</a></li>
                                     <li><a href="../Stakeholder/index4.html">申訴管道</a></li>
                                     <li><a href="../Stakeholder/index5.html">不道德行為檢舉制度</a></li>
@@ -148,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="breads">
-                    <a href="#">首頁</a>
+                    <a href="../index.html">首頁</a>
                     <span>></span>
                     <span>企業社會責任</span>
                     <span>></span>
@@ -161,13 +155,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <h3>日友公司企業社會責任政策<div class="titleline"></div></h3>
+                    <h3>日友公司企業社會具體作為及計畫<div class="titleline"></div></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <h4>一、社會關懷</h4>
-                    <h5>日友公司身為在地企業，善盡企業社會責任，秉持著敦親睦鄰的精神，拉近公司與鄉親的距離，多年來回饋地方，且積極參與社區，建立良好互動關係。</br></br></h5>
+                    <h5>日友公司身為在地企業，善盡企業社會責任，秉持著敦親睦鄰的精神，拉近公司與鄉親的距離，多年來回饋地方，且積極參與社區，建立良好互動關係。</br></h5>
                     <p style="color:#009943">(一)急難救助及喪葬補助</p>
                     <p>扶助元長地區因天然災害、意外事故、重病、死亡或家庭變故，而生活陷入困境的家庭度過難關，予以捐助急難救助金或喪葬補助金。</p>
                     <p style="color:#009943">(二)冬令救濟活動</p>
@@ -178,7 +172,7 @@
                     <p>日友公司秉持著敦親睦鄰的精神，積極藉由對地方活動、社團活動的熱情參與，拉近本公司與鄉親的距離，建立良好的信賴關係。</p>
                     <p style="color:#009943">(五)頒發獎助學金</p>
                     <p>鼓勵元長鄉內學子，每年發放獎助學金，對學生正面鼓舞，砥礪激發其向學的精神，期望他們將來有能力時，回饋社會，造福更多學生。</p>
-                    <div class="table-responsive">
+                    <div class="table-responsive dragscroll">
                         <table class="table table2">
                             <tr>
                                 <th style="text-align: center;">年度</th>
@@ -241,9 +235,9 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(一)捐贈元長各國中小圖書</p>
+                            <p style="color:#009943">捐贈元長各國中小圖書</p>
                             <p>鑒於元長國中小圖書資源匱乏，教育資源因城鄉差距甚大，為提升學生閱讀習慣，特充實元長鄉共十所國中、小學藏書，自2011年起連續三年捐助總金額計427.6 萬元，計圖書近一萬八千冊。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;">年度</th>
@@ -279,10 +273,10 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(二)舉辦元長地區徵文比賽</p>
+                            <p style="color:#009943">舉辦元長地區徵文比賽</p>
                             <p>捐贈圖書後，希望提升學生閱讀習慣，自2012 年起與元長鄉公所、元長國際同濟會合作舉辦徵文比賽，定期與各校老師討論改進比賽辦法及評選標準，頒發獎金、獎牌及獎狀，且另舉辦頒獎典禮，使學生倍感榮譽。</br>
                                 </br>徵文比賽分成國小低年級組、國小中年級組、國小高年級組及國中組，投稿文章踴躍，內容包括課外讀物閱讀心得或雲林縣在地生活之心得感想、啟示，藉由寫作的過程，加強學生觀察力，提升語文表達及創作能力。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;"> </th>
@@ -320,9 +314,9 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(三)發行「土豆鳥文學誌」</p>
+                            <p style="color:#009943">發行「土豆鳥文學誌」</p>
                             <p>土豆鳥文學誌內容除了刊登徵文比賽優秀的得獎作品外，特邀請各國中小介紹該校教學特色及教育理念，穿插元長地區特色人事物的介紹，讓雜誌內容充滿濃濃元長風情。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;">年度</th>
@@ -357,9 +351,9 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(四)舉辦「日友文學寫作營」</p>
+                            <p style="color:#009943">舉辦「日友文學寫作營」</p>
                             <p>日友公司特委託聯合文學辦理「日友文學寫作營」，以優秀的師資及豐富的課程，增進學生對週遭生活的觀察與體會，讓參加學生了解多種文學形式的展現，學習各種文學創作。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;">年度</th>
@@ -386,9 +380,9 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(五)舉辦「日友科學營」</p>
+                            <p style="color:#009943">舉辦「日友科學營」</p>
                             <p>舉辦「日友環保科學營」，結合雲林科技大學機械工程學系特別設計的課程，透過實驗、活動、遊戲等活動寓教於樂，讓孩子動手、動腳學習科學，在快樂的學習氛圍下，打造「做中學、學中做」的體驗式科學，啟動孩子主動學習的好習慣。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;">年度</th>
@@ -414,9 +408,9 @@
                 <div class="col-md-4 col-sm-4 item">
                     <div class="thumbnail csrshadow">
                         <div class="caption">
-                            <p style="color:#009943">(六)贊助在地弱勢課輔活動</p>
+                            <p style="color:#009943">贊助在地弱勢課輔活動</p>
                             <p>艾忠義、艾慈惠牧師夫婦延續對偏鄉教育的關懷，在鄉內成立的「奇恩堂課後輔導班」持續為元長的孩子服務，日友公司對地方的回饋更是不落人後，已持續多年贊助課輔班營運經費。</p>
-                            <div class="table-responsive">
+                            <div class="table-responsive dragscroll">
                                 <table class="table table3">
                                     <tr>
                                         <th style="text-align: center;">年度</th>
@@ -457,7 +451,7 @@
                     <h4>三、日友彰濱廠回饋金</h4>
                     <p>日友公司於彰濱廠之地方回饋以「日友環保科技股份有限公司中區(彰濱廠)事業廢棄物綜合處理中心營運期間回饋金契約書」為辨理依據，凡地方回饋事項由伸港鄉公所及線西鄉公所提供協助辦理。日友公司彰濱廠與所在地方伸港鄉及線西鄉共同發起設置「中區事業廢棄物綜合處理中心環境保護監督委員會」，監督於操作營運時確實遵循環境法規、落實執行環境保護工作，以維護地方環境品質。</p>
                     <center>
-                        <div class="table-responsive" style="width: 80%">
+                        <div class="table-responsive dragscroll" style="width: 80%">
                             <table class="table table3">
                                 <tr>
                                     <th style="text-align: center;">年度</th>
@@ -564,6 +558,8 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/imagesLoaded.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/masonry.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../js/bootstrap-dropdownhover.min.js"></script>
+    <script src="../js/dragscroll.js"></script>
     <script>
     new WOW().init();
     </script>

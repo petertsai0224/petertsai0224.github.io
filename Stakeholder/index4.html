@@ -16,6 +16,7 @@
     <link href="../css/ihover2.css" rel="stylesheet">
     <link href="../css/sunfriend2.css" rel="stylesheet">
     <link href="../css/sub-sunfriend.css" rel="stylesheet">
+    <link href="../css/bootstrap-dropdownhover.min.css" rel="stylesheet">
     <!--思源黑體 -->
     <style type="text/css">
     @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
@@ -39,11 +40,10 @@
 
 <body class="body">
     <!--HEADER START-->
-     <header>
+    <header>
         <div class="navbar-fixed-top wow fadeInDown">
             <nav class="navbar navbar-default ">
                 <div class="container">
-
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
@@ -54,9 +54,9 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                     <div class="lan"><i class=" wow fa fa-globe" aria-hidden="true"></i> ENGLISH</div>
-                        <ul class="nav navbar-nav navbar-right " data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                        <ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="fadeInUp" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
                             <li class=" dropdown ">
-                                <a href="#" class="dropdown-toggle " data-toggle="dropdown">關於日友 <i class="fa fa-angle-down"></i></a>
+                                <a href="../AboutSF/index.html" class="dropdown-toggle " data-toggle="dropdown">關於日友 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../AboutSF/index.html">基本資料</a></li>
                                     <li><a href="../AboutSF/index2.html">營業項目與範圍</a></li>
@@ -68,7 +68,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">最新消息 <i class="fa fa-angle-down"></i></a>
+                                <a href="../News/index.html" class="dropdown-toggle" data-toggle="dropdown">最新消息 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../News/index.html">最新消息</a></li>
                                     <li><a href="../News/index2.html">重大訊息</a></li>
@@ -76,7 +76,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">公司治理 <i class="fa fa-angle-down"></i></a>
+                                <a href="../CorporateGovernance/index.html" class="dropdown-toggle" data-toggle="dropdown">公司治理 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../CorporateGovernance/index.html">公司治理</a></li>
                                     <li><a href="../CorporateGovernance/index2.html">運作規章</a></li>
@@ -86,7 +86,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">投資人專區 <i class="fa fa-angle-down"></i></a>
+                                <a href="../Investor/index.html" class="dropdown-toggle" data-toggle="dropdown">投資人專區 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../Investor/index.html">股東會相關資訊</a></li>
                                     <li><a href="../Investor/index2.html">盈收公告</a></li>
@@ -97,7 +97,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">企業社會責任 <i class="fa fa-angle-down"></i></a>
+                                <a href="../CorporateSocialResponsibility/index.html" class="dropdown-toggle" data-toggle="dropdown">企業社會責任 <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-left ">
                                     <li><a href="../CorporateSocialResponsibility/index.html">導言</a></li>
                                     <li><a href="../CorporateSocialResponsibility/index2.html">企業社會責任政策</a></li>
@@ -107,16 +107,10 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">利害關係人  <i class="fa fa-angle-down"></i></a>
+                                <a href="../Stakeholder/index.html" class="dropdown-toggle" data-toggle="dropdown">利害關係人  <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="../Stakeholder/index.html">關係人鑑別議題與措施</a></li>
-                                    <li class="dropdown-submenu pull-left">
-                                        <a href="../Stakeholder/index2.html">員工福利措施</a>
-                                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
-                                            <li><a href="../Stakeholder/index2.html">退休制度及實施狀況</a></li>
-                                            <li><a href="../Stakeholder/index2.html">員工工作環境與人身<br />安全保護措施</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="../Stakeholder/index2.html">員工福利措施</a></li>
                                     <li><a href="../Stakeholder/index3.html">供應商管理政策</a></li>
                                     <li><a href="../Stakeholder/index4.html">申訴管道</a></li>
                                     <li><a href="../Stakeholder/index5.html">不道德行為檢舉制度</a></li>
@@ -148,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="breads">
-                    <a href="#">首頁</a>
+                    <a href="../index.html">首頁</a>
                     <span>></span>
                     <span>公司治理</span>
                     <span>></span>
@@ -175,8 +169,8 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h5><i class="fa fa-users" aria-hidden="true">&ensp; </i>申訴管道彙整表</h5>
                     <center>
-                        <div class="table-responsive">
-                            <table class="table table2 dragscroll">
+                        <div class="table-responsive dragscroll">
+                            <table class="table table2">
                                 <tr>
                                     <th>利害關係人</th>
                                     <th>溝通方式</th>
@@ -303,6 +297,8 @@
     <script src="../js/tutorial.js"></script>
     <script src="../js/jquery.easing.1.3.js"></script>
     <script src="../js/scrollanimated.js"></script>
+    <script src="../js/bootstrap-dropdownhover.min.js"></script>
+    <script src="../js/dragscroll.js"></script>
     <script>
     new WOW().init();
     </script>
