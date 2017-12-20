@@ -13,6 +13,20 @@ i{
     visibility:visible;
 }
 
+a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009943;
+    -moz-transition: ease-in 0.25s, ease-out 0.25s;
+    -webkit-transition: ease-in 0.25s, ease-out 0.25s;
+    -o-transition: ease-in 0.25s, ease-out 0.25s;
+    transition: ease-in 0.25s, ease-out 0.25s;
+    text-decoration: none;
+}
+
 .main-navigation {
 
 }
