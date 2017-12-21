@@ -988,6 +988,14 @@ padding: 40px 0px 80px 0px ;
     right: 3%;
 }
 
+.btnn3{
+    position: absolute;
+    float:right;
+    top: 110%;
+    right: 60%;
+}
+
+
 .btnn4{
     position: absolute;
     float:right;
@@ -1009,6 +1017,15 @@ padding: 40px 0px 80px 0px ;
     top: 125%;
     right: 3%;
 }
+
+
+.btnn3{
+    position: absolute;
+    float:right;
+    top: 125%;
+    right: 52%;
+}
+
 
 .btnn4{
     position: absolute;
@@ -1052,6 +1069,14 @@ padding: 40px 0px 80px 0px ;
     float: right;
     right: 0%;
 }
+
+.btnn3{
+    position: relative;
+    float:right;
+    top: 92%;
+    right: 0%;
+}
+
 
 .btnn4 {
     position: relative;
@@ -1138,6 +1163,11 @@ padding: 40px 0px 80px 0px ;
     right: 30%; 
 }
 
+.btnn3{
+    right: 11%;
+}
+
+
 .btnn4 {
     right: 15%; 
 }
@@ -1145,6 +1175,10 @@ padding: 40px 0px 80px 0px ;
 }
 
 @media (max-width: 415px){
+.btnn3{
+    right: 0%;
+}
+
 .btnn4 {
     right: 6%; 
 }
